@@ -1,14 +1,14 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/shader-shippou/',  // Remplacez par le nom de votre repository GitHub
+  base: '/shader-shippou/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: false,  // Optionnel: désactive les sourcemaps en production
+    sourcemap: false,
   },
   server: {
     port: 5173,
-    open: true  // Ouvre automatiquement le navigateur
+    open: true
   }
 })
